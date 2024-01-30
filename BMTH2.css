@@ -1,0 +1,81 @@
+header {
+  background-color: white;
+}
+
+body {
+  background-color: black;
+    
+  h1 {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/1011/56/846/that-s-the-spirit-musician-tattoo-rock-and-roll-wallpaper-preview.jpg
+    );
+    size: initial;
+    background-position: top center;
+    background-repeat:repeat-x;
+    height: 400px;
+    color: white;
+    text-align: center;
+     }
+
+  h2 {
+    color: white;
+    text-align: center;
+  }
+  h3 {
+    color: white;
+    text-align: center;
+  }
+  h4 {
+    color: white;
+    text-align: center;
+  }
+  p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', monospace;
+    font-size: 35px;
+  }
+}
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 5vw);
+        grid-gap: 10px;
+    }
+
+    .gallery__img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+  }
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.gallery__item--2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.gallery__item--3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.gallery__item--4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.gallery__item--5 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
